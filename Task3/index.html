@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,300;0,500;1,100&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4903696d1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forcast App</title>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="container">
+        <p id="dateSection">
+            <span id="currentWeekday"></span><br>
+            <span id="fullCurrentDate"></span>
+        </p>
+        <p id="citySection">
+            <span id="cityName"></span>
+            <i id="dropIcon" class="far fa-caret-square-down"></i><br>
+            <span id="countryName"></span>
+        </p>
+        <div id="searchform" class="hide">
+            <form>
+                <label for="findCity">City name:</label>
+                <input type="text" id="findCity" name="city" value="Nashik"><br>
+                <label for="findCountry">Country code:</label>
+                <input type="text" id="findCountry" name="code" value="IN"><br>
+                <p id="errorMsg" class="hide">Wrong city or country name.<br>
+                    Please try another or <a id="exit" href="#">exit</a>.
+                </p>
+                <button id="searchbtn">Change City</button>
+            </form>
+        </div>
+        <section id="forecastSection">
+            <div class="forecastToday">
+                <span class="dayName">Today</span>
+                <div class="weatherImg"><i></i></div>
+                <span class="dayTemp"></span>
+                <span class="forecastText"></span>
+            </div>
+            <div class="dailyForecast">
+                <span class="dayName"></span>
+                <span class="forecastText"></span>
+                <div class="weatherImg"><i></i></div>
+                <span class="dayTemp"></span>
+            </div>
+            <div class="dailyForecast">
+                <span class="dayName"></span>
+                <span class="forecastText"></span>
+                <div class="weatherImg"><i></i></div>
+                <span class="dayTemp"></span>
+            </div>
+            <div class="dailyForecast">
+                <span class="dayName"></span>
+                <span class="forecastText"></span>
+                <div class="weatherImg"><i></i></div>
+                <span class="dayTemp"></span>
+            </div>
+            <div class="dailyForecast">
+                <span class="dayName"></span>
+                <span class="forecastText"></span>
+                <div class="weatherImg"><i></i></div>
+                <span class="dayTemp"></span>
+            </div>
+            <div class="dailyForecast">
+                <span class="dayName"></span>
+                <span class="forecastText"></span>
+                <div class="weatherImg"><i></i></div>
+                <span class="dayTemp"></span>
+            </div>
+            <div class="dailyForecast">
+                <span class="dayName"></span>
+                <span class="forecastText"></span>
+                <div class="weatherImg"><i></i></div>
+                <span class="dayTemp"></span>
+            </div>
+        </section>
+    </div>
+   <footer>Made by Pratiksha Nikam</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
