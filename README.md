@@ -6,3 +6,7 @@ https://github.com/pratunikam700/Internship_project/assets/146617057/fc8ab796-f5
 Task 2 Output-
 
 https://github.com/pratunikam700/Internship_project/assets/146617057/0d3b676e-5836-4bc1-94be-8fdff125efcf
+
+Task 3 Output-
+
+https://github.com/pratunikam700/Internship_project/assets/146617057/774fd731-e79b-4458-bc50-549ea056bbae
